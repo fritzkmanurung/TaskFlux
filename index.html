@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/tab.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ultimate To-Do</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-tasks">0</span>
+                    <span class="stat-label">Total</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="completed-tasks">0</span>
+                    <span class="stat-label">Done</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="pending-tasks">0</span>
+                    <span class="stat-label">Pending</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="input-wrapper">
+                <input type="text" id="task-input" placeholder="What needs to be done?" maxlength="100">
+                <div class="priority-selector">
+                    <button class="priority-btn high" data-priority="high">High</button>
+                    <button class="priority-btn medium active" data-priority="medium">Medium</button>
+                    <button class="priority-btn low" data-priority="low">Low</button>
+                </div>
+            </div>
+            <button class="add-btn" onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="filter-section">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+            <button class="filter-btn" data-filter="high">High Priority</button>
+        </div>
+
+        <ul class="task-list" id="task-list"></ul>
+
+        <div class="clear-completed">
+            <button class="clear-btn" onclick="clearCompleted()">Clear Completed</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
