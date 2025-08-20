@@ -1,14 +1,16 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1d9aec96-ff1c-47a1-8d72-009ff836ac96/deploy-status)](https://app.netlify.com/projects/taskfluxweb/deploys)
 <div align="center">
-  <img src="assets/logo.png" alt="TaskFlux Logo" width="120">
+  <img src="assets/TaskFlux.png" alt="TaskFlux Logo" width="180">
   <h1>TaskFlux - The Ultimate To-Do List</h1>
   <p>A stunning, feature-rich To-Do List application with a modern glassmorphism design, built purely with HTML, CSS, and JavaScript.</p>
   
   <p>
     <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
-    <img src="https://img.shields.io/github/license/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="License">
-    <img src="https://img.shields.io/github/repo-size/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Repo Size">
-    <img src="https://img.shields.io/github/last-commit/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Last Commit">
-    <a href="https://github.com/[YOUR-USERNAME]/[YOUR-REPONAME]/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <img src="https://img.shields.io/github/license/fritzkmanurung/TaskFlux" alt="License">
+    <img src="https://img.shields.io/github/repo-size/fritzkmanurung/TaskFlux" alt="Repo Size">
+    <img src="https://img.shields.io/github/last-commit/fritzkmanurung/TaskFlux" alt="Last Commit">
+    <a href="https://github.com/fritzkmanurung/TaskFlux/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <a href="https://taskfluxweb.netlify.app/"><img src="https://img.shields.io/badge/Live Demo-brightgreen" alt="Live Demo"></a>
   </p>
 </div>
 
@@ -17,7 +19,8 @@
   <a href="#-features"><strong>Features</strong></a> ·
   <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
   <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#-usage"><strong>Usage</strong></a>
+  <a href="#-usage"><strong>Usage</strong></a> ·
+  <a href="#-live-demo"><strong>Live Demo</strong></a>
 </p>
 
 ---
@@ -27,7 +30,7 @@
 TaskFlux features a beautiful and intuitive interface designed to make productivity a pleasure.
 
 <div align="center">
-  <img src="http://googleusercontent.com/file_content/4" alt="TaskFlux Application Preview">
+  <img src="assets/image.png" alt="TaskFlux Application Preview">
 </div>
 
 ## 🌟 Key Features
@@ -56,14 +59,16 @@ This project is built from the ground up with core web technologies, ensuring it
 
 No complex build steps are required. Simply get the file and run it.
 
-1.  **Clone or Download the Repository**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-REPONAME].git
-    ```
-    Or download the single HTML file.
-
-2.  **Open in Your Browser**
-    Navigate to the project folder and open the `.html` file in any modern web browser.
+1.  **Clone the Repository**
+    ````bash
+    git clone [https://github.com/fritzkmanurung/TaskFlux.git](https://github.com/fritzkmanurung/TaskFlux.git)
+    ````
+2.  **Navigate to the Directory**
+    ````bash
+    cd TaskFlux
+    ````
+3.  **Open in Your Browser**
+    Navigate to the project folder and open the `index.html` file in any modern web browser.
 
 ## 🛠️ Usage
 
@@ -72,6 +77,10 @@ No complex build steps are required. Simply get the file and run it.
 3.  **Edit/Delete a Task**: Hover over a task to reveal the edit (✏️) and delete (🗑️) buttons.
 4.  **Filter Tasks**: Use the filter buttons to change the view of your task list.
 5.  **Clear Finished Tasks**: Click the "Clear Completed" button at the bottom to remove all tasks that have been marked as done.
+
+## 🌐 Live Demo
+
+Experience TaskFlux live in your browser: [https://taskfluxweb.netlify.app/](https://taskfluxweb.netlify.app/)
 
 ## 🤝 Contributing
 
